@@ -1,0 +1,187 @@
+        /* Reset y estilos básicos */
+#login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:  #f4f4f9; /* Fondo claro */
+        }
+#main-content {
+            display: none;
+        }
+.login-box {
+            background: white;
+
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+.tab-content {
+    padding: 2rem;
+    display: none;
+}
+.active {
+    display: block;
+}
+/* Estilo general de la tabla */
+        #tableContainer table{
+            border-collapse: collapse; /* Elimina los espacios entre bordes */
+            width: 100%; /* La tabla ocupa el 100% del ancho */
+            margin-top: 10px; /* Espacio superior */
+            font-size: 8px !important;  /* Tamaño de letra más pequeño */
+            font-family: Arial, sans-serif; /* Tipo de letra */
+            table-layout: fixed;
+        }
+        /* Estilo de las celdas */
+        #tableContainer th,#tableContainer td {
+            border: 1px solid #ddd; /* Bordes finos y grises */
+            padding: 3px; /* Espaciado interno */
+            text-align: center; /* Alineación del texto */
+                        word-wrap: break-word; /* Ajusta el texto dentro de la celda */
+            word-break: break-word; /* Permite romper palabras largas */
+            white-space: normal; /* Permite que el texto ocupe varias líneas */
+        }
+        /* Estilo de la cabecera */
+        #tableContainer th {
+            background-color: #f2f2f2; /* Fondo gris claro */
+            font-size: 8px !important; /* Tamaño de letra más grande para las cabeceras */
+            font-weight: bold; /* Negrita en las cabeceras */
+        }
+        /* Alternar color de fondo en filas */
+        #tableContainer tr:nth-child(even) {
+            background-color: #f9f9f9; /* Color de fondo más claro para filas pares */
+        }
+        #tableContainer tr:hover {
+            background-color: #e0e0e0; /* Fondo gris más oscuro al pasar el mouse */
+        }
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px; /* Tamaño base recomendado */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+/* Tipografia */
+body {
+    color: #ffffff; /* Texto oscuro */
+    background-color:  #f4f4f9; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+}
+footer {
+    color: #f8f8f8;
+}
+
+/* fin tipografia */
+input[type="password"] {
+        padding: 0.5rem;
+        width: 100%;
+        margin: 1rem 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+}
+.containerr {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.content {
+    flex: 1;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.padding-l-60 {
+    padding-left: 200px;
+}
+.padding-r-60{
+    padding-right: 200px;
+}
+.bg-blue {
+    background-color: #2b83ba;
+}
+/* 6. Media queries para diseño responsivo */
+@media (max-width: 1921px) {
+  .col {
+    flex: 100%; /* Las columnas ocupan todo el ancho en pantallas pequeñas */
+  }
+  .padding-l-60 {
+    padding-left: 100px;
+}
+.padding-r-60{
+    padding-right: 100px;
+}
+.content {
+    flex: 1;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+  header h1 {
+    font-size: 1.5rem; /* Tamaño más pequeño para encabezados */
+  }
+}
+.padding-r-40{
+    padding-right: 110px;
+}
+.padding-l-40 {
+    padding-left: 110px;
+}
+@media (max-width: 480px) {
+  header {
+    padding: 15px 0; /* Menos espacio en encabezados */
+  }
+.padding-l-60 {
+    padding-left: 80px;
+}
+.padding-l-40 {
+    padding-left: 60px;
+}
+.padding-r-60{
+    padding-right: 80px;
+}
+.padding-r-40{
+    padding-right: 60px;
+}
+.content {
+    flex: 1;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+.rack-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+/* Efecto de imagen */
+.image-hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image-hover-effect-static{
+    transform: scale(1.1); /* Amplía la imagen un 10% hacia adelante */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra alrededor de la imagen */
+}
+.image-hover-effect:hover {
+    transform: scale(1.1); /* Amplía la imagen un 10% hacia adelante */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra alrededor de la imagen */
+}

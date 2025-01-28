@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Relevo Racks Computos</title>
+        <link rel="stylesheet" href="../style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <script src="../auth.js"></script>
+    </head>
+    <body>
+        <div class="containerr">
+            <div class="bg-blue padding-l-60 padding-r-60">
+                <div class="fw-semibold text-white pt-3 pb-3">
+                    <h4>Centro de computos</h4>
+                </div>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../index.html"
+                            >Edificios</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../index.html">Regresar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../backups.html">Backups</a>
+                    </li>
+                </ul>
+            </div>
+            <main class="content">
+                <!-- navbar Racks -->
+                        <div class="bg-blue m-5 rounded-3 padding-l-40 padding-r-40 ">
+                            <ul class="nav nav-tabs w-100">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./CentroComputos-rackA.html"
+                                    >Rack A</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black active" href="./CentroComputos-rackB.html"
+                                    >Rack B</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./CentroComputos-rackC.html"
+                                    >Rack C</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./CentroComputos-rackD.html"
+                                    >Rack D</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./CentroComputos-rackE.html"
+                                    >Rack E</a
+                                >
+                            </li>
+                            </ul>
+                        </div>
+                <!-- fin navbar racks -->
+                <div class="m-5">
+                    <div
+                        class="rack-container"
+                        style="
+                            height: 100%;
+                            margin-top: 0%;
+                            margin-bottom: 0%;
+                            background-color: rgb(244, 244, 244);
+                        "
+                    >
+                        <div class="container">
+                          <div class="row border bg-light align-items-center text-center rounded-3">
+                            <div class="col-md-3 border bg-light text-start pt-2 pb-2">
+                                <h6 class="m-0">Rack B | Principal Cisco</h6>
+                            </div>
+                            <div class="col-md-5 border bg-light text-center pt-2 pb-2">
+                                <h6 class="m-0">Sala Ing.Forte Daniel</h6>
+                            </div>
+                            <div class="col-md-4 border bg-light pt-2 pb-2">
+                              <h6 class="m-0">Edificio central</h6>
+                            </div>
+                            </div>
+                            <!-- Patchera AMP -->
+                            <div class="row d-flex p-1 mt-3 align-items-center text-center border border-1  rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  A 
+                            </div>                              
+                              <div class="col-md-4 fw-semibold text-start">
+                                    Patchera AMP
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="#"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/ParcheraAMP.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Switch cisco small bussiness -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  1 
+                            </div>                                
+                              <div class="col-md-4 fw-semibold text-start">
+                                   Switch Cisco small bussiness
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/1-Switch-Cisco-small-bussiness.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/sw-cisco-smallBussines.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- switch trendnet teg284ws -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  2 
+                            </div>                                
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Switch TRENDnet TEG284WS
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/2-Switch-TRENDnet-TEG284WS.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/TrendnetTEG284ws.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- switch HPE Office connect 1920 series -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  B 
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  switch HPE Office connect 1920 S
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/B-switch-HPEOffice-connect-1920S.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/HP-SW1.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!--Switch HP2530 24G -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  3 
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Switch HP-2530 24G
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/3-Switch-HP-2530-24G.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/HP2530-24G.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Equipo ruckus zone director -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  X
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Ruckus zone director
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/X-Ruckus-zone-director.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/Rukus zone director.png"
+                                        class="w-50 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Switch HP-2530 24G -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  5
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Switch HP-2530 24G
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/5-Switch HP-2530-24G.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/HP2530-24G.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- switch cisco systems 3560G -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  4
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Switch Cisco systems 3560G 
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/4-Switch-Cisco-systems-3560G.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/cisco systems 3560G.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Patchera 2 AMP -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  2
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Patchera AMP
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="#"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/ParcheraAMP.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Patchera 4 AMP -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  4
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Patchera AMP
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="#"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/ParcheraAMP.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Router mikrotik cloud core ccr1036 -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  1
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Router mikrotik cloud core ccr1036 
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/1-Router-mikrotik-cloud-core-ccr1036.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/Router mikrotik-cloud core-ccr1036.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Router mikrotik cloud core ccr1036 8G 25+ -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  2
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Router mikrotik cloud core ccr1036 8G 25
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/2-Router-mikrotik-cloud-core-ccr1036-8G-25.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/Router mikrotik crr1036 8G 25+.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!--Switch huawei S1720-10GW-2P -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  X
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Switch huawei S1720-10GW-2P
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/X-Switch-huawei-S1720-10GW-2P.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/huawei-s1720-10w-2p.png"
+                                        class="w-50 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Switch mikrotik crs326-24G -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  3
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Switch mikrotik crs326-24G
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/3-Switch-mikrotik-crs326-24G.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/Router switch mikrotik crs326 .png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Router mikrotik 1100AHX4 -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  4
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Router mikrotik 1100AHX4
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/4-Router-mikrotik-1100AHX4.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/Router mikrotik 1100AHX4.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Patchera fibra optica -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  X
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Patchera fibra optica Adecomm
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/X- Patchera-fibra-optica-Adecomm.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/Patchera fibra optica.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- livewave optical network switch -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  XB
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  livewave optical network switch
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/XB-livewave-optical-network-switch.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/optical network switch.png"
+                                        class="w-25 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Switch huawei cloud engine S5335 -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  XC
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Switch huawei cloud engine S5335
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/XC-Switch huawei cloud engine S5335.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/switch huawei cloud engine s5335.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Mediatrix G7 series -->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  XD
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Mediatrix G7 series
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/XD-Mediatrix G7 series.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/Mediatrix G7 Series.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Cisco 1841-->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  XE
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Cisco 1841
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/XE-Cisco-1841.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/Cisco 1841.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                            <!-- Alcatel 1642EMC ISA ES1 8FE-->
+                            <div class="row d-flex p-1 align-items-center text-center border border-1 rounded-3">
+                            <div class="col-md-2 fw-semibold border">
+                                  XF
+                            </div>                            
+                              <div class="col-md-4 fw-semibold text-start">
+                                  Alcatel 1642EMC ISA ES1 8FE
+                            </div>
+                            <div class="col-md-6">
+                                <a
+                                    href="./EdCent-Sala-Ing-Forte/rackB/XF-Alcatel 1642EMC ISA ES1 8FE.html"
+                                    class="text-decoration-none text-black"
+                                >
+                                    <img
+                                        src="./img-EdCent/Alcatel 1642EMC.png"
+                                        class="w-75 rounded-1 img-fluid image-hover-effect"
+                                        alt="..."
+                                    />
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="py-3 bg-blue padding-l-60 padding-r-60">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Sección izquierda: Insignia e información -->
+                        <div
+                            class="col-md-4 d-flex align-items-center d-none d-md-block"
+                        >
+                            <img
+                                src="../img/World_IPv6_WI-FI_128-0.png"
+                                alt="Insignia IPv6"
+                                style="height: 80px"
+                                class="me-2"
+                            />
+                        </div>
+                        <!-- Sección central: Información de contacto -->
+                        <div class="col-md-4 text-end d-none d-md-block">
+                            Maestro M. Lopez esq. Cruz Roja Argentina<br />
+                            Ciudad Universitaria - Córdoba Capital<br />
+                            <a
+                                href="https://www.frc.utn.edu.ar/"
+                                class="text-white text-decoration-none"
+                            >
+                                https://www.frc.utn.edu.ar/ </a
+                            ><br />
+                            ©2025 - 2025 Todos los derechos reservados.
+                        </div>
+                        <!-- Sección derecha: Imagen del Centro de Cómputos -->
+                        <div class="col-md-4 text-md-end text-center col-sm-12">
+                            <img
+                                src="../img/cc.jpg"
+                                alt="Centro de Cómputos"
+                                style="height: 50px"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

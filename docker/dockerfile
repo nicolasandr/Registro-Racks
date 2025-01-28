@@ -1,0 +1,8 @@
+# Usamos la imagen oficial de Apache (Debian-based)
+FROM httpd:2.4
+
+# Copiar los archivos de tu aplicación al contenedor
+COPY ./public_html/ /usr/local/apache2/htdocs/
+
+# Exponer el puerto 80 para el servidor Apache
+EXPOSE 80

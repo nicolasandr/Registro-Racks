@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  apache:
+    build:
+      context: ./docker  # Carpeta donde está tu Dockerfile
+    ports:
+      - "8080:80"       # Mapea el puerto 80 del contenedor al puerto 8080 en tu máquina
+    volumes:
+      - ./public_html:/usr/local/apache2/htdocs/  # Sincroniza tus archivos locales con el contenedor
+    restart: always       # Asegura que el contenedor se reinicie automáticamente si falla

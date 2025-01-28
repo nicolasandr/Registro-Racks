@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relevo Racks Computos</title>
+    <link rel="stylesheet" href="style.css">
+                <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <script src="auth.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Login -->
+    <div id="login">
+        <div class="login-box">
+          <img src="img/cc.jpg" alt="centro de computos">
+           <h5 class="pt-1">Relevamiento de racks</h5>
+            <h3 class="pt-2">Iniciar sesion</h3>
+            <input type="password" id="password" placeholder="Clave">
+            <!-- <button onclick="checkPassword()">Entrar</button> -->
+            <!-- <button  type="button" class="btn btn-outline-light">Entrar</button> -->
+            <button onclick="checkPassword()" type="button" class="btn btn-outline-secondary">Entrar</button>
+            <p id="error" style="color: red; display: none;">Clave incorrecta</p>
+        </div>
+    </div>
+
+    <div id="main-content">
+            <!-- Contenido principal -->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class="containerr">
+        <div class="bg-blue padding-l-60 ">
+           
+              <div class=" fw-semibold text-white pt-3 pb-3">
+                 <h4>Centro de computos</h4></div>
+            <ul class="nav nav-tabs w-100">
+              <li class="nav-item">
+                <a class="nav-link active">Edificios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="backups.html">Backups</a>
+              </li>
+            </ul>
+        </div>
+        <main class="content">
+          <div class="pt-5">
+            <div class="rack-container" style="margin-top: 0%; margin-bottom: 0%; background-color: rgb(244, 244, 244);">
+            <div class="container row d-flex">
+              <div class="d-flex align-items-start pt-3 pb-3">
+                <!-- Edificio central -->
+              <h4>Edificio central</h4></div>
+              <!-- centro de computos -->
+              <div class="col-md-4 pt-1 pb-1 text-start">
+                <div  id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Centro de computos
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <ul>
+                          <li><a href="./EdificioCentral/CentroComputos-rackA.html" class="text-decoration-none text-black">Sala ing.Forte Daniel</a></li>
+                          <li>Rack C</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>              
+              <!-- ciencias basicas -->
+              <div class="col-md-4 pt-1 pb-1 text-start">
+              <a href="index.html" class=" text-decoration-none text-black">Ciencias Basicas</a></div>
+              <!-- cuarto tecnico pasillo ciencias basicas -->
+              <div class="col-md-4 pt-1 pb-1 text-start">
+              <a href="index.html" class="text-decoration-none text-black">Pasillo Ciencias Basicas</a>
+            </div>
+            <!-- cuarto tecnico -->
+            <div class="col-md-4 pt-1 pb-1 text-start">
+            <a href="EdificioCentral/CuartoTec.html" class="text-decoration-none text-black">Cuarto tecnico - Piso 1</a></div>
+            </div>
+            </div> 
+            </div>
+
+          <div class="pt-5">
+            <div class="rack-container" style="margin-top: 0%; margin-bottom: 0%; background-color: rgb(244, 244, 244);">
+            <div class="container row d-flex">
+              <div class="d-flex align-items-start pt-3 pb-3">
+              <h4>Edificio Madders</h4></div>
+              <div class="col-md-4  text-start">
+              <a href="index.html" class="text-decoration-none text-black">Cuarto tecnico</a></div>
+              <div class="col-md-4">
+              <a href="index.html" class="text-decoration-none text-black">Ciencias Basicas</a></div>
+              <div class="col-md-4">
+              <a href="index.html" class="text-decoration-none text-black">Pasillo Ciencias Basicas</a>
+            </div>
+            </div>
+            </div> 
+            </div>
+
+          <div class="pt-5 pb-5">
+            <div class="rack-container" style="margin-top: 0%; margin-bottom: 0%; background-color: rgb(244, 244, 244);">
+            <div class="container row">
+              <div class="d-flex align-items-start pt-3 pb-3">
+              <h4>Edificio Salsedo</h4></div>
+              <div class="col-md-4">
+              <a href="index.html" class="text-decoration-none text-black">Cuarto tecnico</a></div>
+              <div class="col-md-4">
+              <a href="index.html" class="text-decoration-none text-black">Ciencias Basicas</a></div>
+              <div class="col-md-4">
+              <a href="index.html" class="text-decoration-none text-black">Pasillo Ciencias Basicas</a>
+            </div>
+            </div>
+            </div> 
+            </div>
+        </main>
+
+<footer class="py-3 bg-blue padding-l-60 padding-r-60">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Sección izquierda: Insignia e información -->
+      <div class="col-md-4 d-flex align-items-center  d-none d-md-block">
+        <img src="img/World_IPv6_WI-FI_128-0.png" alt="Insignia IPv6" style="height: 80px;" class="me-2">
+      </div>
+      <!-- Sección central: Información de contacto -->
+      <div class="col-md-4 text-end  d-none d-md-block">
+        Maestro M. Lopez esq. Cruz Roja Argentina<br>
+        Ciudad Universitaria - Córdoba Capital<br>
+        <a href="https://www.frc.utn.edu.ar/" class="text-white text-decoration-none">
+          https://www.frc.utn.edu.ar/
+        </a><br>
+        ©2025 - 2025 Todos los derechos reservados.
+      </div>
+      <!-- Sección derecha: Imagen del Centro de Cómputos -->
+      <div class="col-md-4 text-md-end text-center col-sm-12">
+        <img src="img/cc.jpg" alt="Centro de Cómputos" style="height: 50px;">
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+</body>
+</html>
+</body>
+</html>
